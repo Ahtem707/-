@@ -1,0 +1,119 @@
+.section-6 {
+    margin-top: 120px;
+}
+
+.section-6>.container {
+    width: inherit;
+    height: inherit;
+    background-color: #FCFCFC;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-6>.container>h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 79px;
+}
+
+.section-6>.container>.cards-container {
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-6>.container>.cards-container>.cards {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 25px;
+}
+
+.section-6>.container>.cards-container>.cards>.card {
+    padding: 40px 27px;
+    padding-bottom: 64px;
+    border-radius: 8px;
+    width: 514px;
+    background-color: #ffffff;
+    background-image: url('../assets/icons/two_point.png');
+    background-repeat: no-repeat;
+    background-position: 95% 18%;
+}
+
+.section-6>.container>.cards-container>.cards>.card>.block {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-6>.container>.cards-container>.cards>.card>.block>img {
+    width: 90px;
+    height: 90px;
+}
+
+.section-6>.container>.cards-container>.cards>.card>.block>.middle-block {
+    margin: auto 0;
+    padding-left: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3px;
+}
+
+.section-6>.container>.cards-container>.cards>.card>.block>.middle-block>.name {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 770px;
+    height: 25px;
+    color: #333333;
+}
+
+.section-6>.container>.cards-container>.cards>.card>.block>.middle-block>.description {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 760px;
+    height: 18px;
+    color: #888A9A;
+}
+
+.section-6>.container>.cards-container>.cards>.card>p {
+    margin-top: 32px;
+    font-size: 18px;
+    font-weight: 750px;
+}
+
+.section-6>.container>.pagination-container {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-6>.container>.pagination-container>.button-container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 18px;
+}
+
+.section-6>.container>.pagination-container>.button-container>button {
+    border: none;
+    background: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 55px;
+}
+
+.section-6>.container>.pagination-container>.button-container>button:nth-of-type(1) {
+    background-image: url('../assets/icons/back.png');
+}
+
+.section-6>.container>.pagination-container>.button-container>button:nth-of-type(2) {
+    background-image: url('../assets/icons/next-active.png');
+}
