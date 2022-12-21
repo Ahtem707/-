@@ -1,0 +1,64 @@
+.section-4 {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-4>.left-block {
+    margin: auto 0;
+    margin-left: 135px;
+}
+
+.section-4>.left-block>p {
+    margin-top: 30px;
+}
+
+.section-4>.left-block>ul {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.section-4>.left-block>ul>li {
+    padding-left: 37px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 750px;
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: 0 5px;
+    background-image: url('../assets/icons/check-mark.png');
+}
+
+.section-4>.spacer {
+    max-height: 100%;
+    min-width: 20px;
+}
+
+.section-4>.right-block {
+    margin-right: 56px;
+}
+
+@media (max-width: 1200px) {
+    .section-4 {
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .section-4>.left-block {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .section-4>.spacer {
+        width: inherit;
+        height: 0;
+    }
+    .section-4>.right-block {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
