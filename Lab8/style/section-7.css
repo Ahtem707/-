@@ -1,0 +1,47 @@
+.section-7 {
+    padding-top: 120px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-7>h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.section-7>p {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 750px;
+    color: #3B433E;
+}
+
+.section-7>.email-block {
+    margin-top: 60px;
+    height: inherit;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-7>.email-block>.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 15px;
+}
+
+.section-7>.email-block>.container>input {
+    padding: 18px 20px;
+    border-radius: 100px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #F5F5F5;
+    min-width: 250px;
+    font-size: 18px;
+    font-weight: 750px;
+    color: #8A8A8A;
+}

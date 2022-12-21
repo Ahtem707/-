@@ -1,0 +1,214 @@
+.header>.top-nav {
+    height: 54px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-right: 68px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header>.top-nav>.spacer {
+    height: 100%;
+}
+
+.header>.top-nav>.spacer-1 {
+    min-width: 10px;
+}
+
+.header>.top-nav>.spacer-2 {
+    min-width: 30px;
+}
+
+.header>.top-nav>.spacer-3 {
+    min-width: 30px;
+}
+
+.header>.top-nav>.menu-button {
+    min-width: 40px;
+    min-height: 40px;
+    width: 40px;
+    height: 40px;
+    margin: auto 10px;
+    display: none;
+    background-image: url('../assets/icons/menu-icon.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header>.top-nav>.logo {
+    margin: auto 0;
+    height: 40px;
+    font-family: 'Poppins';
+    font-size: 26px;
+    font-weight: 500px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.header>.top-nav>.menu {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 800px) {
+    .header>.top-nav>.menu-button {
+        display: block;
+    }
+    .header>.top-nav>.menu {
+        display: none;
+    }
+}
+
+.header>.top-nav>.menu>.menu-item {
+    margin: auto 0;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-weight: 400px;
+    color: #2C3847;
+    cursor: pointer;
+}
+
+.header>.top-nav>.menu>.menu-item-selected {
+    color: #5FB848;
+}
+
+.header>.top-nav>.menu>.spacer {
+    height: 100%;
+    min-width: 40px;
+}
+
+.header>.top-nav>.icons {
+    display: flex;
+}
+
+.header>.top-nav>.icons>.item {
+    margin-top: calc((100% - 20px)/2);
+    height: 20px;
+    width: 20px;
+}
+
+.header>.top-nav>.icons>.item>button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header>.top-nav>.icons>.item>.search {
+    background-image: url('../assets/icons/search.png');
+}
+
+.header>.top-nav>.icons>.item>.shopping-cart {
+    background-image: url('../assets/icons/shopping-cart.png');
+}
+
+.header>.top-nav>.icons>.item>.notification {
+    background-color: #DC2825;
+    border-radius: 100%;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    right: -14px;
+    top: -24px;
+}
+
+.header>.top-nav>.icons>.spacer {
+    height: 100%;
+    min-width: 20px;
+}
+
+.header>.top-nav>button {
+    height: 54px;
+    min-width: 160px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 27px;
+    border-width: 0px;
+    background-color: #494949;
+    font-family: 'Sofia Pro';
+    font-size: 20px;
+    font-weight: 400px;
+    color: #ffffff;
+}
+
+.header>.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header>.container>.right-block {
+    width: 90vh;
+    height: 90vh;
+    margin-left: -100px;
+    margin-right: 0;
+    background-image: url('../assets/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+}
+
+.header>.container>.left-block {
+    width: 600px;
+    margin-top: 166px;
+    margin-left: 135px;
+}
+
+@media (max-width: 1600px) {
+    .header>.container>.left-block {
+        width: 600px;
+        margin-top: 166px;
+        margin-left: 40px;
+    }
+    .header>.container>.right-block {
+        background-size: 110%;
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header>.container>.right-block {
+        width: 60vh;
+        height: 60vh;
+        background-size: 100%;
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .header>.container {
+        flex-wrap: wrap-reverse;
+    }
+    .header>.container>.left-block {
+        width: 80vw;
+        margin: 0 auto;
+    }
+    .header>.container>.right-block {
+        margin: 0 auto;
+    }
+}
+
+.header>.container>.left-block>h1 {
+    font-family: 'Sharp Sans No1';
+    font-size: 76px;
+    font-weight: 770px;
+    color: #000000;
+}
+
+.header>.container>.left-block>h1>span {
+    color: #5FB848;
+}
+
+.header>.container>.left-block>p {
+    margin-top: 30px;
+    width: 74%;
+    font-family: 'Sharp Sans No1';
+    font-size: 24px;
+    font-weight: 750px;
+    color: #181D19;
+}
+
+.header>.container>.left-block>button {
+    margin-top: 50px;
+}

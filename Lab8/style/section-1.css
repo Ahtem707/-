@@ -1,0 +1,113 @@
+.section-1 {
+    background-color: #ffffff;
+}
+
+.section-1>h2 {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-1>p {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 750px;
+    color: #3B433E;
+}
+
+.section-1>.carts {
+    margin-top: 62px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-1>.carts>.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 100px;
+}
+
+.section-1>.carts>.container>.cart {
+    min-width: 270px;
+    max-width: 270px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .section-1>.carts>.container {
+        flex-wrap: wrap;
+        column-gap: 0;
+    }
+    .section-1>.carts>.container>.cart {
+        min-width: none;
+        max-width: none;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+.section-1>.carts>.container>.cart>img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.section-1>.carts>.container>.cart>h3 {
+    margin: 0;
+    margin-top: 36px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-1>.carts>.container>.cart>p {
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.section-1>.counters {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-1>.counters>.container {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 150px;
+}
+
+@media (max-width: 600px) {
+    .section-1>.counters>.container {
+        margin: 0;
+        width: 100%;
+        flex-wrap: wrap;
+        column-gap: 0;
+    }
+    .section-1>.counters>.container>.counter {
+        width: 80%;
+        margin: 10px auto;
+    }
+}
+
+.section-1>.counters>.container>.counter>h3 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 780px;
+}
+
+.section-1>.counters>.container>.counter>p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 760px;
+}
