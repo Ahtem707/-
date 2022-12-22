@@ -94,3 +94,12 @@ p {
     text-align: center;
     color: #ffffff;
 }
+
+@media (max-width: 1200px) {
+    .footer>.main-block {
+        flex-wrap: wrap;
+    }
+    .footer>.main-block>.owner {
+        margin-bottom: 20px;
+    }
+}

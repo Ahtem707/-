@@ -38,6 +38,9 @@
         margin-top: 20px;
         text-align: center;
     }
+    .section-3>.left-block>img {
+        width: 100%;
+    }
     .section-3>.spacer {
         width: inherit;
         height: 0;

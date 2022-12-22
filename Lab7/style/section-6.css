@@ -117,3 +117,12 @@
 .section-6>.container>.pagination-container>.button-container>button:nth-of-type(2) {
     background-image: url('../assets/icons/next-active.png');
 }
+
+@media (max-width: 1200px) {
+    .section-6>.container>.cards-container>.cards>.card {
+        display: none;
+    }
+    .section-6>.container>.cards-container>.cards>.card:first-child {
+        display: block;
+    }
+}
